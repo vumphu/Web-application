@@ -1,0 +1,13 @@
+.p3{
+    color: red;
+}
+
+.border{
+    border: 1px solid;
+    color: red;
+    size: 5px;
+}
+
+img:hover{
+    opacity: 0.3;
+}

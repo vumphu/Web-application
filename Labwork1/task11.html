@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Task 11</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.item{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    padding: 3px 0;
+}
+div { border :  5px solid #ffffff; }
+.header{
+  display: flex;
+  background-color: #62b6ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 99.4%;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+    display: flex;
+    width: 99.4%;
+    background-color: #62b6ff;
+    align-items: center;
+    justify-content: center;
+}
+.column1 {
+    display:flex;
+    float: left;
+    width: 20%;
+    padding-top: 275px;
+    padding-bottom: 275px;
+    align-items: center;
+    justify-content: center;
+}
+
+.column2 {
+    display: flex;
+    float:left;
+    width: 80%;
+    padding-top: 275px;
+    padding-bottom: 275px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.cat1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    border: 1px solid #ffffff;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: red;
+  }
+  
+a:hover {
+    color: rgb(32, 28, 172);
+  }
+</style>
+</head>
+<body>
+
+<div class="header" style="margin:auto">
+    <p class="item" style="color: #ffffff;">Banner</p>
+</div>
+
+<div class="row" style="margin: auto;">
+    <div class="column1" style="background-color:#62b6ff; margin:auto">
+        <div class="cat1" style="color: #ffffff; position:absolute; width: 250px; height: 50px; top: 150px"> <a target="display-frame1" href="http://127.0.0.1:5500/Labwork1/category1.html">Category 1</a></div>
+        <div class="cat1" style="color: #ffffff; position:absolute; width: 250px; height: 50px; top: 210px"> <a target="display-frame1" href="http://127.0.0.1:5500/Labwork1/category2.html">Category 2</a></div>
+        <div class="cat1" style="color: #ffffff; position:absolute; width: 250px; height: 50px; top: 270px"> <a target="display-frame1" href="http://127.0.0.1:5500/Labwork1/category3.html">Category 3</a></div>
+        <div class="cat1" style="color: #ffffff; position:absolute; width: 250px; height: 50px; top: 330px"> <a target="_blank" href="http://127.0.0.1:5500/Labwork1/About.html">About</a></div>
+    </div>
+    <div class="column2" style="background-color:#62b6ff; margin:auto">
+        <iframe name="display-frame1" style="position: absolute; width: 1186px; height: 550px; top: 123px"></iframe>
+    </div>
+  </div>
+
+<div class="footer" style="margin:auto">
+    <p class="item" style="color: #ffffff;">Copyright</p>
+</div>
+
+</body>
+</html>
